@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package br.edu.ifnmg.projetocinema;
+package br.edu.ifnmg.projetocinema.entity;
 
 /**
  *
- * @author Dayany_LucasFreitas_ThiagoRiquelmo
+ * @author rique
  */
-public class Funcionario {
-    private String nome;
+public class Ingresso extends Entidade{
+    
 }

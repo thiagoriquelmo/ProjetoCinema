@@ -4,13 +4,18 @@
  */
 package br.edu.ifnmg.projetocinema;
 
+import br.edu.ifnmg.projetocinema.repository.GeneroDao;
+import br.edu.ifnmg.projetocinema.entity.Genero;
+
 /**
  *
  * @author Dayany_LucasFreitas_ThiagoRiquelmo
  */
-public class Cinema {
-    private String nome;
-    private String endereco;
+public class Main {
+    public static void main(String[] args) {
+        Genero gen = new Genero("Comedia");
     
+        new GeneroDao().salvar(gen);
+    }
     
 }
